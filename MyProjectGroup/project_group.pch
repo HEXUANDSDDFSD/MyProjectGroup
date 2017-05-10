@@ -1,0 +1,27 @@
+//
+// Prefix header for all source files of the 'tysx' target in the 'tysx' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#import "Configs.h"
+#import "UIButton+simple.h"
+#import "NSDate+Normal.h"
+#import "UIImage+simple.h"
+#import "NSArray+Category.h"
+#import "UIColor+category.h"
+#import "GCD+EXPAND.h"
+#import "CFunction.h"
+#import "UIView+AutoLayout.h"
+#import "UIView+Frame.h"
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+

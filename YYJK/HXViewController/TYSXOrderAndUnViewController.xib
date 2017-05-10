@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TYSXOrderAndUnViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" tag="1031" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="heilongjiang.png" translatesAutoresizingMaskIntoConstraints="NO" id="tED-7b-9vL">
+                    <rect key="frame" x="422" y="437" width="78" height="72"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="1002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="neimenggu.png" translatesAutoresizingMaskIntoConstraints="NO" id="FE4-3C-vik">
+                    <rect key="frame" x="295" y="441" width="156" height="133"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="1015" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xinjiang.png" translatesAutoresizingMaskIntoConstraints="NO" id="snh-Ya-Sef">
+                    <rect key="frame" x="150" y="470" width="141" height="108"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="1024" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gansu.png" translatesAutoresizingMaskIntoConstraints="NO" id="fxt-by-7tz">
+                    <rect key="frame" x="266" y="526" width="98" height="87"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="1030" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="qinghai.png" translatesAutoresizingMaskIntoConstraints="NO" id="QU7-9A-suR">
+                    <rect key="frame" x="239" y="554" width="88" height="62"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="1026" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xizang.png" translatesAutoresizingMaskIntoConstraints="NO" id="pjJ-6E-5mQ">
+                    <rect key="frame" x="164" y="569" width="134" height="83"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="1008" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sichuan.png" translatesAutoresizingMaskIntoConstraints="NO" id="J3a-cF-BiL">
+                    <rect key="frame" x="287" y="597" width="76" height="67"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="1001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yunnan.png" translatesAutoresizingMaskIntoConstraints="NO" id="SV3-rJ-2bD">
+                    <rect key="frame" x="283" y="640" width="64" height="62"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="1007" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jilin.png" translatesAutoresizingMaskIntoConstraints="NO" id="fx5-Vm-gQl">
+                    <rect key="frame" x="435" y="494" width="57" height="43"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="1028" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="liaoning.png" translatesAutoresizingMaskIntoConstraints="NO" id="oML-BY-JWE">
+                    <rect key="frame" x="424" y="518" width="40" height="39"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="1018" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hebei.png" translatesAutoresizingMaskIntoConstraints="NO" id="pEq-5R-dWG">
+                    <rect key="frame" x="391" y="528" width="41" height="55"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="1006" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="beijing.png" translatesAutoresizingMaskIntoConstraints="NO" id="KJU-0J-DfP">
+                    <rect key="frame" x="405" y="542" width="12" height="13"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="1009" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tianjin.png" translatesAutoresizingMaskIntoConstraints="NO" id="34S-pZ-fIR">
+                    <rect key="frame" x="409" y="547" width="11" height="17"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="1010" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ningxia.png" translatesAutoresizingMaskIntoConstraints="NO" id="EWT-vd-ZdU">
+                    <rect key="frame" x="337" y="559" width="20" height="32"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="1004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sanxi.png" translatesAutoresizingMaskIntoConstraints="NO" id="gtB-Q7-C8M">
+                    <rect key="frame" x="345" y="557" width="35" height="63"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="1027" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="guizhou.png" translatesAutoresizingMaskIntoConstraints="NO" id="LDi-XH-rx3">
+                    <rect key="frame" x="329" y="640" width="41" height="36"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="1029" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chongqing.png" translatesAutoresizingMaskIntoConstraints="NO" id="sej-Pj-2Cz">
+                    <rect key="frame" x="342" y="617" width="33" height="31"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="1022" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hubei.png" translatesAutoresizingMaskIntoConstraints="NO" id="T2c-3c-ndY">
+                    <rect key="frame" x="358" y="605" width="57" height="38"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="1023" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hunan.png" translatesAutoresizingMaskIntoConstraints="NO" id="RBc-qH-AC4">
+                    <rect key="frame" x="366" y="633" width="37" height="50"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="1003" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shanxi.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pni-PQ-xjP">
+                    <rect key="frame" x="374" y="549" width="26" height="49"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="1019" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="henan.png" translatesAutoresizingMaskIntoConstraints="NO" id="lmh-7y-nXM">
+                    <rect key="frame" x="375" y="582" width="43" height="39"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="1012" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shandong.png" translatesAutoresizingMaskIntoConstraints="NO" id="rvK-AJ-pG2">
+                    <rect key="frame" x="402" y="565" width="48" height="31"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="1016" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jiangsu.png" translatesAutoresizingMaskIntoConstraints="NO" id="enc-gs-NC9">
+                    <rect key="frame" x="413" y="588" width="39" height="33"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="1017" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jiangxi.png" translatesAutoresizingMaskIntoConstraints="NO" id="efB-pu-aSN">
+                    <rect key="frame" x="397" y="631" width="36" height="45"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="1011" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="anhui.png" translatesAutoresizingMaskIntoConstraints="NO" id="n1k-BP-GrC">
+                    <rect key="frame" x="404" y="599" width="34" height="37"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="1020" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="zhejiang.png" translatesAutoresizingMaskIntoConstraints="NO" id="ytz-qu-IgH">
+                    <rect key="frame" x="429" y="620" width="27" height="33"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="1005" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shanghai.png" translatesAutoresizingMaskIntoConstraints="NO" id="h47-br-ZU8">
+                    <rect key="frame" x="445" y="614" width="12" height="9"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="1025" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fujian.png" translatesAutoresizingMaskIntoConstraints="NO" id="jEB-uJ-rX0">
+                    <rect key="frame" x="415" y="644" width="31" height="38"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="1014" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="guangxi.png" translatesAutoresizingMaskIntoConstraints="NO" id="Iv6-rp-VTA">
+                    <rect key="frame" x="334" y="663" width="51" height="39"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="1013" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="guangdong.png" translatesAutoresizingMaskIntoConstraints="NO" id="hys-xd-i03">
+                    <rect key="frame" x="372" y="669" width="53" height="36"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="1021" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hainan.png" translatesAutoresizingMaskIntoConstraints="NO" id="LnB-ue-7O9">
+                    <rect key="frame" x="363" y="713" width="21" height="19"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="1032" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="taiwan.png" translatesAutoresizingMaskIntoConstraints="NO" id="v5D-dK-Y12">
+                    <rect key="frame" x="450" y="663" width="14" height="31"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <point key="canvasLocation" x="281" y="185"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="anhui.png" width="34" height="37"/>
+        <image name="beijing.png" width="11" height="13"/>
+        <image name="chongqing.png" width="32" height="31"/>
+        <image name="fujian.png" width="30" height="38"/>
+        <image name="gansu.png" width="97" height="87"/>
+        <image name="guangdong.png" width="52" height="35"/>
+        <image name="guangxi.png" width="51" height="38"/>
+        <image name="guizhou.png" width="41" height="35"/>
+        <image name="hainan.png" width="20" height="19"/>
+        <image name="hebei.png" width="40" height="54"/>
+        <image name="heilongjiang.png" width="77" height="71"/>
+        <image name="henan.png" width="42" height="38"/>
+        <image name="hubei.png" width="56" height="33"/>
+        <image name="hunan.png" width="37" height="49"/>
+        <image name="jiangsu.png" width="39" height="32"/>
+        <image name="jiangxi.png" width="36" height="44"/>
+        <image name="jilin.png" width="56" height="42"/>
+        <image name="liaoning.png" width="39" height="38"/>
+        <image name="neimenggu.png" width="154" height="132"/>
+        <image name="ningxia.png" width="19" height="31"/>
+        <image name="qinghai.png" width="88" height="62"/>
+        <image name="sanxi.png" width="35" height="62"/>
+        <image name="shandong.png" width="48" height="31"/>
+        <image name="shanghai.png" width="12" height="9"/>
+        <image name="shanxi.png" width="26" height="49"/>
+        <image name="sichuan.png" width="76" height="66"/>
+        <image name="taiwan.png" width="13" height="30"/>
+        <image name="tianjin.png" width="11" height="17"/>
+        <image name="xinjiang.png" width="140" height="107"/>
+        <image name="xizang.png" width="134" height="83"/>
+        <image name="yunnan.png" width="63" height="62"/>
+        <image name="zhejiang.png" width="26" height="33"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
